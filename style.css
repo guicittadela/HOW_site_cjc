@@ -1,0 +1,220 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+header{
+    background-image: url(unknown.png);
+    
+    height: 250px;
+    
+    
+    
+}
+#nome {
+    font-size: 15px;
+    width: 300px;
+    height: 20px;
+}
+
+p {
+    font-size: 16px;
+}
+
+#msg {
+    margin-left: 15px;
+    margin-top: -1px;
+}
+
+input {
+    border: 1px solid #CCCCCC;
+}
+
+textarea {
+    border: 1px solid #CCCCCC;
+}
+
+.falecon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: fit-content;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eb4644;
+    color: #ffffff;
+    width: 100%;
+    padding: 10px 50px 10px 50px;
+}
+
+.footer__telefone {
+    text-align: left;
+}
+
+.telefone {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.assinar {
+    padding: 0.4rem;
+    border-radius: 8px;
+    background-color: #b22b45;
+    border-style: none;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.banner {
+    width: 1500px;
+    background-size: cover;
+    height: fit-content;
+}
+
+#logo {
+    margin-left: 1%;
+    margin-top: 50px;
+    width: 300px;
+}
+
+a {
+    font-weight: bold;
+}
+
+#barra {
+    background-color: #eb4644 !important;
+    margin-top:35px;
+}
+
+.img-page1 {
+    width: 322px;
+    height: 322px;
+}
+
+div.card {
+    border: none;
+}
+
+.desactive {
+    display: none;
+}
+
+#sala {
+    display: none;
+}
+
+#sala.active {
+    display: block;
+}
+
+#cozinha {
+    display: none;
+}
+
+#cozinha.active {
+    display: block;
+}
+
+#banheiro {
+    display: none;
+}
+
+#quarto.active {
+    display: block;
+}
+
+#quarto {
+    display: none;
+}
+
+#banheiro.active {
+    display: block;
+}
+
+.btn-primary {
+    background-color: #b22b45 !important;
+    border: none !important;
+    width: 100px;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1);
+}
+
+.img-fundo img {
+    width: 612px;
+    height: 612px;
+    z-index: -1;
+    position: absolute;
+    margin-left: 22%;
+    margin-top: -1%;
+}
+
+.card-principal img {
+    width: 468px;
+    height: 468px;
+}
+
+.color {
+    color: #b22b45;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+div i {
+    cursor: pointer;
+}
+
+.card-secundario {
+    overflow: hidden;
+}
+
+.card-secundario img {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.card-secundario img:hover {
+    transform: scale(1.2);
+    opacity: 0.5;
+}
+
+img.img-thumbnail {
+    border: none;
+}
+
+.btn-voltar:hover {
+    color: #b22b45;
+    background-color: #fff;
+}
+
+@media screen and (max-width:640px) {
+    .img-page1 {
+        width: 200px;
+        height: 200px;
+    }
+    img.img-thumbnail {
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+    }
+    .card-principal img {
+        width: 300px;
+        height: 300px;
+    }
+    .img-fundo img {
+        position: absolute;
+        width: 500px;
+        height: 400px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .color {
+        font-size: 0.8em;
+    }
+}
