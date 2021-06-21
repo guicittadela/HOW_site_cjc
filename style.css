@@ -193,6 +193,29 @@ img.img-thumbnail {
     background-color: #fff;
 }
 
+.quem-somos{
+    margin: 32px;
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    text-align: center;
+    padding: auto;
+}
+.carrosel-home{
+    padding: auto;
+    max-width: 60%;
+    border: solid 1px;
+    margin: 32px;
+}
+.foto-carrosel{
+    max-width:100%;
+    
+    border-radius: 20px;
+}
+.corpo{
+    display: flex;
+    flex-direction: row;
+}
 @media screen and (max-width:640px) {
     .img-page1 {
         width: 200px;
@@ -217,4 +240,22 @@ img.img-thumbnail {
     .color {
         font-size: 0.8em;
     }
+    .corpo{
+        display: flex;
+        flex-direction: column;
+    }
+    .carrosel-home{
+        padding: auto;
+        max-width: 100%;
+        margin: 16px;
+    }
+    .quem-somos{
+        margin: 16px;
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        text-align: center;
+        padding: auto;
+    }
 }
+
