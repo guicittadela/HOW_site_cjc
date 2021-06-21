@@ -200,6 +200,7 @@ img.img-thumbnail {
     max-width: 40%;
     text-align: center;
     padding: auto;
+    color: #b22b45;
 }
 .carrosel-home{
     padding: auto;
@@ -256,6 +257,20 @@ img.img-thumbnail {
         max-width: 100%;
         text-align: center;
         padding: auto;
+        color: #b22b45;
     }
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #eb4644;
+        color: #ffffff;
+        width: 100%;
+        padding: 10px 50px 10px 50px;
+    }
+
+    
 }
 
