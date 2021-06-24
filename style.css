@@ -57,8 +57,12 @@ textarea {
 }
 
 .telefone {
-    text-decoration: none;
+    text-decoration: none !important;
     color: #ffffff;
+}
+
+.telefone:hover{
+    color: #f0a1a1;
 }
 
 .assinar {
@@ -217,6 +221,23 @@ img.img-thumbnail {
 .corpo{
     display: flex;
     flex-direction: row;
+}
+
+.nav{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 8px;
+}
+.nav:hover{
+    color: #f0a1a1;
+    text-decoration: none;
+}
+
+#cjc{
+    color: white;
+}
+#cjc:hover{
+    color: #f0a1a1;
 }
 @media screen and (max-width:640px) {
     .img-page1 {
