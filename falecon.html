@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.PNG" type="image/x-icon" />
 
-
+    <script src="https://kit.fontawesome.com/f0f0a9feb5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -40,9 +40,11 @@
 <body>
     <div class="falecon">
         <div class="int">
-            <p><strong>&#9742; Telefone: </strong>(48) 3338-9433 <br>
+            <p><strong>&#9742; Telefone: </strong>
+                <a class="telefone-form" href="https://api.whatsapp.com/send?l=pt&phone=5548991019220&" target="_blank"> (48)991019220</a>
+                <a class="telefone-form" href="https://api.whatsapp.com/send?l=pt&phone=5548988557102&" target="_blank"> (48)988557102</a><br>
 
-                <strong>&#9993; E-mail:</strong> <a href="mailto:contatocjc@gmail.com">contatocjc@gmail.com</a>
+                <strong>&#9993; E-mail:</strong> <a id="email-form" href="mailto:contatocjc@gmail.com"> orcamentos.cjc@gmail.com</a>
             </p>
             <p>Ou entre em contato conosco através do formulário abaixo:</p>
 
@@ -66,7 +68,7 @@
                                     <strong>Escreva abaixo sua mensagem</strong><br>
                                     <textarea name="mensagem" id="mensagem_contato" cols="30" rows="10"></textarea>
                                     <p><strong></strong><br>
-                                        <input type="submit" value="Enviar" class="enviar_1">
+                                        <input type="submit" value="Enviar" class="btn btn-primary">
                                     </p>
                                 </p>
                             </td>
@@ -84,10 +86,10 @@
                 width="250" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
         <div class="footer__telefone">
-            <p>E-mail <i class="far fa-envelope"></i> orcamentos.cjc@gmail.com</p>
+            <p> <i class="far fa-envelope"></i><a class="email-footer" href="mailto:contatocjc@gmail.com"> orcamentos.cjc@gmail.com</a></p>
             
             
-                <p>WhatsApp 
+                <p> 
                     <i class="fab fa-whatsapp"></i>
                     <a class="telefone" href="https://api.whatsapp.com/send?l=pt&phone=5548991019220&" target="_blank"> (48)991019220</a>
                     <a class="telefone" href="https://api.whatsapp.com/send?l=pt&phone=5548988557102&" target="_blank"> (48)988557102</a>
@@ -99,7 +101,7 @@
         <div class="footer__newsletter">
             <label>Newsletter</label>
             <input type="email" name="email">
-            <button class="assinar" type="submit" onsubmit="">Assinar</button>
+            <button class="btn btn-primary" type="submit" onsubmit="">Assinar</button>
         </div>
     
     </footer>

@@ -40,6 +40,7 @@ textarea {
     align-items: center;
     min-width: fit-content;
     padding: 20px;
+    color: #b22b45;
 }
 
 .footer {
@@ -65,6 +66,15 @@ textarea {
     color: #f0a1a1;
 }
 
+.telefone-form {
+    text-decoration: none !important;
+    color: #b22b45;
+}
+
+.telefone-form:hover{
+    color: #e95454;
+}
+
 .assinar {
     padding: 0.4rem;
     border-radius: 8px;
@@ -72,6 +82,10 @@ textarea {
     border-style: none;
     cursor: pointer;
     color: #ffffff;
+}
+
+.assinar:hover{
+    background-color: #990e2a;
 }
 
 .banner {
@@ -239,6 +253,25 @@ img.img-thumbnail {
 #cjc:hover{
     color: #f0a1a1;
 }
+
+#email-form{
+    color: #b22b45;
+    text-decoration: none;
+}
+
+#email-form:hover{
+    color: #e95454;
+}
+.email-footer{
+    color: white;
+    text-decoration: none;
+}
+
+.email-footer:hover{
+    color: #f0a1a1;
+    text-decoration: none;
+
+}
 @media screen and (max-width:640px) {
     .img-page1 {
         width: 200px;
@@ -291,6 +324,14 @@ img.img-thumbnail {
         color: #ffffff;
         width: 100%;
         padding: 10px 50px 10px 50px;
+    }
+    
+    .email-footer{
+        font-size: 14px;
+    }
+
+    .telefone{
+        font-size: 14px;
     }
 
     
