@@ -85,7 +85,7 @@ textarea {
 }
 
 .assinar:hover{
-    background-color: #990e2a;
+    background-color: #b22b45;
 }
 
 .banner {
@@ -241,6 +241,7 @@ img.img-thumbnail {
     color: #ffffff;
     text-decoration: none;
     padding: 8px;
+    padding-left: 64px !important;
 }
 .nav:hover{
     color: #f0a1a1;
