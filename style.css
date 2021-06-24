@@ -213,13 +213,19 @@ img.img-thumbnail {
 }
 
 .quem-somos{
+    
     margin: 32px;
     display: flex;
     flex-direction: column;
     max-width: 40%;
-    text-align: center;
-    padding: auto;
+    text-align: justify;
+    padding: 64px;
     color: #b22b45;
+}
+
+#quem-somos-titulo{
+    text-align: center;
+    padding-bottom: 32px;
 }
 .carrosel-home{
     padding: auto;
@@ -311,7 +317,7 @@ img.img-thumbnail {
         display: flex;
         flex-direction: column;
         max-width: 100%;
-        text-align: center;
+        text-align: justify;
         padding: auto;
         color: #b22b45;
     }
