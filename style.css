@@ -281,6 +281,8 @@ img.img-thumbnail {
     text-decoration: none;
 
 }
+
+/*Configuração de responsividade do site*/
 @media screen and (max-width:640px) {
     .img-page1 {
         width: 200px;
