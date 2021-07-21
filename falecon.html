@@ -50,36 +50,33 @@
             </p>
             <p>Ou entre em contato conosco através do formulário abaixo:</p>
 
+            <form action="send-email.php" method="POST">
+                <div class="form-itens">
+                    <label for="inputNome"><b>Nome:  </b></label>
+                    <input type="text" id="inputNome" name="nome">
+                    <span></span>
+                </div>
 
-            <div class="form_1">
-                <table cellspacing="0" cellpadding="0">
-                    <tbody>
-                        <tr>
+                <div class="form-itens">
+                    <label for="inputEmail"><b>E-mail:  </b></label>
+                    <input type="text" id="inputEmail" name="email">
+                    <span></span>
+                </div>
 
-                            <td>
-                                <p><strong>Seu nome</strong> <br>
-                                    <span> <input type="text" id="nome"></span>
-                                </p>
-                                <p><strong>Seu e-mail</strong> <br>
-                                    <span> <input type="text" id="nome"></span>
-                                </p>
-                                <p><strong>Assunto</strong> <br>
-                                    <span> <input type="text" id="nome"></span>
-                                </p>
-                                <p id="msg">
-                                    <strong>Escreva abaixo sua mensagem</strong><br>
-                                    <textarea name="mensagem" id="mensagem_contato" cols="30" rows="10"></textarea>
-                                    <p><strong></strong><br>
-                                        <input type="submit" value="Enviar" class="btn btn-primary">
-                                    </p>
-                                </p>
-                            </td>
-                            <td>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+                <div class="form-itens">
+                    <label for="inputAssunto"><b>Assunto:  </b></label>
+                    <input type="text" id="inputAssunto" name="assunto">
+                    <span></span>
+                </div>
+
+                <div class="form-itens">
+                    <label for="textAreaMensagem"><b>Mensagem:</b></label>
+                    <textarea name="mensagem" id="textAreaMensagem" cols="30" rows="10"></textarea>
+                    <span></span>
+                </div>
+
+                <button class="btn btn-primary">Enviar</button>
+            </form>
         </div>
     </div>
     <footer class="footer">
@@ -112,7 +109,7 @@
         <div class="footer__newsletter">
             <label>Newsletter</label>
             <input type="email" name="email">
-            <button class="btn btn-primary" type="submit" onsubmit="">Assinar</button>
+            <button class="btn btn-primary" id="news-btn" type="submit" onsubmit="">Assinar</button>
         </div>
     
     </footer>

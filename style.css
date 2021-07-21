@@ -245,6 +245,11 @@ img.img-thumbnail {
     
 }
 
+.form-itens{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
 .nav{
     color: #ffffff;
     text-decoration: none;
@@ -345,7 +350,9 @@ img.img-thumbnail {
         font-size: 14px;
     }
 
-    
+    #news-btn{
+        margin-top: 16px;
+    }
 }
 
 @media screen and (min-width:1300px){
